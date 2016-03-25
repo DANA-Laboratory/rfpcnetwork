@@ -1,0 +1,20 @@
+{
+    "application": {
+        "name": "RahavaranNetwork"
+    },
+    "express": {
+        "port": 3000
+    },
+    "logger": {
+        "filename": "logs/run.log",
+        "level": "silly"
+    },
+    "mongo": {
+        "url": "mongodb://localhost/rfpcnetwork"
+    },
+    "linkedin": {
+        "clientid": "77xax6x8zyhlgl",
+        "secret": "1yNrQDV0fEjgmOqf",
+        "redirecturi": "http://localhost:3000/linkedin/auth/callback"
+    }
+}
